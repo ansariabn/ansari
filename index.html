@@ -72,8 +72,15 @@
             alt="Ashoka Chakra">
         <div id="item3"></div>
         <h1>I ❤️ <span class="i">IN</span><span class="D">D</span><span>IA</span></h1>
-        <button>❤️</button>
-        
-         
+        <audio id="myAudio" src="song.mp3">
+        </audio>
+        <button onclick="playAudio()" type="button">❤️</button>
+        <script>
+           var x = document.getElementById("myAudio"); 
+  
+           function playAudio() { 
+           x.play(); 
+        }
+        </script>
     </body>
 </html>
