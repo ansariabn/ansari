@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <style>
+        h1{
+            text-align: center;
+            color:whitesmoke;
+            background-color: black;
+            border-radius: 10px;
+            
+            
+            
+        }
+        img{
+            width:80px;
+            height:80px;
+            object-fit:contain;
+            text-align-last: center;
+        }
+       
+    </style>
+
+    <title>Document</title>
+</head>
+<body>
+    <div class="container">
+        <form action="" method="get">
+            <h1 class="main_heading">Payment Form</h1>
+            <hr>
+            <h2>User Information</h2>
+            <p>
+                Name: *
+                <input type="text" Required name="name" placeholder="Enter your name" required>
+            </p>
+            <p>
+                <fieldset>
+                    <legend>Gender</legend>
+                    Male <input type="radio" name="gender" value="M"> 
+                    Female <input type="radio" name="gender" value="F">
+                </fieldset>
+            </p>
+            <p>
+                Address:
+                <textarea placeholder="enter your full Address" name="address" cols="100" row="10" > 
+                 </textarea>   
+                
+            </p>
+            <p>
+                Email:
+                <input type="email" id="email"  placeholder="ansari@gmail.com">
+            </p>
+            <p>
+                Pincode:
+                <input type="number" id="pincode" value="pincode" placeholder="123456">
+            </p>
+            <h2>
+                Payment Information
+            </h2>
+            <p >Card type:<img src="https://cdn.trendhunterstatic.com/thumbs/solid-gold-credit-card.jpeg">
+                
+                 <img src="https://cdn.zeebiz.com/sites/default/files/styles/zeebiz_850x478/public/2019/03/28/80052-rupay-website.png?itok=DyBjn9bf">
+                <img src="https://www.hsbc.co.in/content/dam/hsbc/in/images/credit-card/platinum-card-300-198.jpg">
+
+                <select name="card_type" id="card_type">
+                    <option value="">-- select card type--</option>
+                    <option value="visa">visa  </option>
+                    
+                    <option value="mastercard"> mastercard</option>
+                    <option value="rupay">rupay</option>
+                    
+                </select>
+            </p>
+            <p>
+                Expiration date:
+                <input type="date" value="exp_date" id="exp_date">
+            </p>
+            <p>
+                CVV
+                <input type="number" placeholder="1245">
+
+            </p>
+            <input type="submit" value="Pay now">
+
+
+
+        </form>
+
+    </div>
+    
+</body>
+</html>
