@@ -1,0 +1,27 @@
+question 1:-
+Method Overloading                                                         Method Overriding
+Method overloading is a compile-time polymorphism.         Method overriding is a run-time polymorphism.
+It occurs within the class.                               It is performed in two classes with inheritance relationships.
+
+Method overloading may or may not require inheritance.     Method overriding always needs inheritance.
+
+In method overloading, methods must have the same         In method overriding, methods must have the same name and same signature.
+name and different signatures.
+
+Static binding is being used for overloaded methods.       Dynamic binding is being used for overriding methods.
+
+Private and final methods can be overloaded.               Private and final methods can’t be overridden.
+
+
+question 4 :-Can we override a private method in Java?
+No, we cannot override private or static methods in Java. Private methods in Java are not visible
+ to any other class which limits their scope to the class in which they are declared.
+
+question 2:-How many types of inheritance are there in Object-Oriented Programming? Which inheritance types does Java support?
+ Single Inheritance.
+ Multiple Inheritance.
+ Multi-Level Inheritance.
+ Hierarchical Inheritance.
+ Hybrid Inheritance.
+
+ multiple and hybrid inheritance is supported through interface only.
