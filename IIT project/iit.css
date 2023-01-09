@@ -1,0 +1,176 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+}
+.main-Header {
+    margin-left: 3%;
+}
+body {
+    background-color: rgb(246, 252, 255);
+}
+.body {
+    background-color: rgb(245, 233, 235);
+    width: auto;
+    border-radius: 9px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    margin: 10px;
+}
+h5 {
+    position: relative;
+    margin: 10px;
+}
+h3 {
+    margin-top: 30px;
+    color: rgb(252, 154, 170);
+}
+p {
+    margin-top: 20px;
+    font-size: small;
+}
+.sub-main {
+    display: flex;
+    margin-top: 0px;
+    margin-right: 50%;
+    justify-content: space-between;
+}
+@media only screen and (max-width: 600px){
+.sub-main {
+  display: block;
+  justify-content: center;
+}
+}
+    
+
+.Status,
+.client,
+.End-date,
+.start-D {
+    margin-top: 1px;
+}
+#start,
+#end,
+#status,
+#client {
+    border-radius: 9px;
+    padding: 10px;
+    border: none;
+    outline: none;
+}
+#start {
+    background-color: rgb(88, 88, 186);
+    color: white;
+}
+#status {
+    background-color: rgb(245, 140, 147);
+    color: white;
+}
+#end {
+    background-color: rgb(159, 163, 224);
+    color: white;
+}
+#client {
+    background: rgb(111, 142, 250);
+    color: white;
+}
+input {
+    padding: 3px;
+}
+select {
+    padding: 4px;
+
+}
+input :focus {
+    background-color: coral;
+}
+::-webkit-calender-picker-indicator {
+    background-color: white;
+}
+::-webkit-calendar-picker-indicator {
+    color: brown;
+    background-color: white;
+    margin: 0px;
+    padding: -1px;
+    border-radius: 2px;
+}
+.table {
+    margin-left: 0.5%;
+    margin-right: 0.5%;
+
+    width: 99%;
+}
+thead {
+    margin-left: 20%;
+    position: relative;
+    top: 20px;
+    text-align: start;
+    border: none;
+    border-radius: 10px;
+    left: 5px;
+    right: 5px;
+}
+
+
+button:nth-child(1) {
+    padding: 5px;
+    border-radius: 9px;
+    outline: none;
+    cursor: pointer;
+    background-color: rgb(250, 127, 127);
+    color: white;
+    font-weight: bold;
+}
+#data-output {
+    text-align: center;
+    background-color: rgb(255, 255, 255);
+    position: relative;
+    top: 50px;
+}
+tbody tr {
+
+    padding: 50px 50px;
+    height: 4rem;
+    border: 1px solid;
+}
+th,
+tr {
+    font-size: 0.818rem;
+}
+tbody td {
+    background-color: rgb(255, 255, 255);
+    border-bottom: 1px solid rgb(224, 221, 221);
+}
+table {
+    font-weight: bold;
+
+}
+tbody tr td:nth-child(1) {
+    border-top-left-radius: 10px;
+}
+tbody tr td:nth-child(7) {
+    border-top-right-radius: 10px;
+}
+tbody td:nth-child(1) {
+    color: rgb(88, 88, 186);
+
+}
+tbody td:nth-child(2) {
+    color: rgb(88, 88, 186);
+}
+tbody td:nth-child(5) {
+    color: rgb(245, 140, 147);
+}
+tbody td:nth-child(6) {
+    color: rgb(245, 140, 147);
+}
+tbody td:nth-child(4) {
+    color: gray;
+}
+
+tbody td:nth-child(3) {
+    color: gray;
+}
+
+thead td {
+    border-top-left-radius: 10px;
+}
