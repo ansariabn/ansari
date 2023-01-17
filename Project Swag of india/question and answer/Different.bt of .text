@@ -1,0 +1,62 @@
+Question:- What is the differnce between localStorage, sessionStorage and cookies?
+Answer:-
+
+Sr.no     Parameters                  Cookies                     Local storage                Session storage
+1.        Capacity                    4KB                         10MB                         5MB
+2.        Browsers                    HTML 4 / HTML 5             HTML 5                       HTML 5
+3.        Accessible From             Any window                  Any window                   Same tab
+4.        Expiration                  Manually set                Never                        On tab close
+5.        Browser support             Very high                   Very high                    Very high
+6.        Supported data types        String only                 String only                  String only
+7.        Auto-expire option          Yes                         No                           Yes
+8.        Storage Location            Browser and server          Browser only                 Browser only
+9.        Sent with requests          Yes                         No                           No
+       
+       
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+

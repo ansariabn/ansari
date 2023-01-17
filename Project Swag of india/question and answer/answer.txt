@@ -1,0 +1,46 @@
+Question:[1] What is asynchronous programming, and why is it important in JavaScript?
+
+answer:- Asynchronous programming makes it possible to express waiting for long-running actions without freezing the program during these actions. JavaScript environments typically implement this style of programming using callbacks, functions that are called when the actions complete.
+
+
+Question:[2] Why would we use JSON Over XML?
+
+Answer:-JSON is faster because it is designed specifically for data interchange. JSON encoding is terse, which requires less bytes for transit. JSON parsers are less complex, which requires less processing time and memory overhead. XML is slower, because it is designed for a lot more than just data interchange.
+
+Question:[3] what is the MIME type of JSON?
+
+A media type (also known as a Multipurpose Internet Mail Extensions or MIME type) indicates the nature and format of a document, file, or assortment of bytes. MIME types are defined and standardized in IETF's RFC 6838.
+text/plain was typically used for JSON, but according to IANA, the official MIME type for JSON is application/json.
+
+Question:[4] what is JSONP?
+
+Answer:- JSONP stands for JSON with Padding. Requesting a file from another domain can cause problems, due to cross-domain policy. Requesting an external script from another domain does not have this problem. JSONP uses this advantage, and request files using the script tag instead of the XMLHttpRequest object.
+
+
+Question:[5] What are the various ajax functions available in jQuery?
+Answer:- jQuery AJAX Methods
+AJAX is the art of exchanging data with a server, and update parts of a web page - without reloading the whole page.
+The following table lists all the jQuery AJAX methods:
+Method	Description
+$.ajax()	Performs an async AJAX request
+$.ajaxPrefilter()	Handle custom Ajax options or modify existing options before each request is sent and before they are processed by $.ajax()
+$.ajaxSetup()	Sets the default values for future AJAX requests
+$.ajaxTransport()	Creates an object that handles the actual transmission of Ajax data
+$.get()	Loads data from a server using an AJAX HTTP GET request
+$.getJSON()	Loads JSON-encoded data from a server using a HTTP GET request
+$.parseJSON()	Deprecated in version 3.0, use JSON.parse() instead. Takes a well-formed JSON string and returns the resulting JavaScript value
+$.getScript()	Loads (and executes) a JavaScript from a server using an AJAX HTTP GET request
+$.param()	Creates a serialized representation of an array or object (can be used as URL query string for AJAX requests)
+$.post()	Loads data from a server using an AJAX HTTP POST request
+ajaxComplete()	Specifies a function to run when the AJAX request completes
+ajaxError()	Specifies a function to run when the AJAX request completes with an error
+ajaxSend()	Specifies a function to run before the AJAX request is sent
+ajaxStart()	Specifies a function to run when the first AJAX request begins
+ajaxStop()	Specifies a function to run when all AJAX requests have completed
+ajaxSuccess()	Specifies a function to run when an AJAX request completes successfully
+load()	Loads data from a server and puts the returned data into the selected element
+serialize()	Encodes a set of form elements as a string for submission
+serializeArray()	Encodes a set of form elements as an array of names and values.
+
+Question:[5] What is the correct JSON content type 
+Answer:- jSON has to be correctly interpreted by the browser to be used appropriately. text/plain was typically used for JSON, but according to IANA, the official MIME type for JSON is application/json 

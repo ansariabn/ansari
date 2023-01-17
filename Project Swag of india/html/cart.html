@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css"
+        integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.1.1.slim.min.js"
+        integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n" crossorigin="anonymous">
+    </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js"
+        integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous">
+    </script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js"
+        integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous">
+    </script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+</head>
+<title>Document</title>
+<link rel="stylesheet" href="cart.css">
+<!-- <link rel="stylesheet" href="style.css"> -->
+</head>
+
+<body>
+    
+    <!-- Nav -->
+    <nav class="navbar navbar-inverse bg-inverse fixed-top bg-faded">
+        <div class="row">
+            <div class="col">
+                <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#cart">Cart (<span
+                        class="total-count">0</span>)
+                </button>
+                <button class="clear-cart btn btn-danger">Clear
+                    Cart
+                </button>
+            </div>
+        </div>
+    </nav>
+
+
+    <!-- Main -->
+    <div class="container">
+        <div class="row">
+            <div class="col">
+                <div class="card" style="width: 20rem; margin-top: 30rem;">
+                    <img class="card-img-top" src="http://www.azspagirls.com/files/2010/09/orange.jpg"
+                        alt="Card image cap">
+                    <div class="card-block">
+                        <h4 class="card-title">Orange</h4>
+                        <p class="card-text">Price: $0.5</p>
+                        <a href="#" data-name="Orange" data-price="0.5" class="add-to-cart btn btn-primary">Add to
+                            cart</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card" style="width: 20rem;margin-top: 30rem;">
+                    <img class="card-img-top"
+                        src="http://images.all-free-download.com/images/graphicthumb/vector_illustration_of_ripe_bananas_567893.jpg"
+                        alt="Card image cap">
+                    <div class="card-block">
+                        <h4 class="card-title">Banana</h4>
+                        <p class="card-text">Price: $1.22</p>
+                        <a href="#" data-name="Banana" data-price="1.22" class="add-to-cart btn btn-primary">Add to
+                            cart</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card" style="width: 20rem; ">
+                    <img class="card-img-top" src="https://3.imimg.com/data3/IC/JO/MY-9839190/organic-lemon-250x250.jpg"
+                        alt="Card image cap">
+                    <div class="card-block">
+                        <h4 class="card-title">Lemon</h4>
+                        <p class="card-text">Price: $5</p>
+                        <a href="#" data-name="Lemon" data-price="5" class="add-to-cart btn btn-primary">Add to cart</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- Modal -->
+    <div class="modal fade" id="cart" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+        aria-hidden="true">
+        <div class="modal-dialog modal-lg" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">Cart</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <table class="show-cart table">
+
+                    </table>
+                    <div>Total price: $<span class="total-cart"></span></div>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                    <button type="button" class="btn btn-primary">Order now</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="modal fade " id="loginModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+    aria-hidden="true">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content ">
+            <div class="modal-header ">
+                <h5 class="modal-title" id="loginModalLabel">User login</h5>
+
+                <button type="button" class="close btn-2-2" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body body">
+                <form>
+                    <div class="form-group">
+                        <label class=" text-dark" for="exampleInputEmail1">Email address</label>
+                        <input type="email" class="form-control" id="exampleInputEmail1"
+                            aria-describedby="emailHelp" placeholder="Enter email">
+                        <small id="emailHelp" class="form-text text-muted">We'll never share your
+                            email with anyone else.</small>
+                    </div>
+                    <div class="form-group">
+                        <label class=" text-dark" for="exampleInputPassword1">Password</label>
+                        <input type="password" class="form-control" id="exampleInputPassword1"
+                            placeholder="Password">
+                    </div>
+                    <!-- <div class="form-group form-check">
+                        <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                        <label class="form-check-label" for="exampleCheck1">Check me out</label>
+                    </div> -->
+                    <button type="submit" class="btn-2">Submit</button>
+                </form>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn-2" data-dismiss="modal">Close</button>
+                <button type="button" class="btn-2">Save changes</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<header>
+    <nav class="top-navigation " id="top-navigation">
+        <ul>
+            <li><a href="#"> <i class="fa-brands fa-twitter"></i> </a></li>
+            <li><input id="one" type="text" type="search" placeholder="Search.."></li>
+            <li><button id="search">Search</button></li>
+            <li><label> Customer Card Number </label></li>
+            <li><input type="text" name="card" id="card" placeholder="123456"></li>
+            <li><button class="btn-1"><i class="fa fa-download"></i>
+                    Download</button></li>
+            <li><a href="#Sell on Company link">Sell On Company link</a></li>
+            <!-- <li><a href="#Downnload App link">Download App link</a></li> -->
+
+            <!-- <li><img src="indian Flag.png" id="flag"> </li> -->
+            <!-- <li><a href="" class="px-2 " id="contact"> +918888888888</a></li> -->
+            <label class="pl-2" for="country">Country</label>
+            <!-- <option value="">Select Country</option> -->
+
+            <select id="select1" name="country">
+                <option value="India"><i class="flag flag-united-states"></i>🇮🇳 INDIA</option>
+                <option value="Usa"><i class="flag flag-uae"></i>🇺🇸 USA</option>
+                <option value="Canada"> 🇨🇦 CANADA</option>
+                <option value="Uae"> 🇲🇼 UAE</option>
+            </select>
+
+            <!-- <select class="selectpicker countrypicker color" data-flag="true"> -->
+
+            </select>
+            <li><button id="btn-3"><a href="profile.html"><img src="id.png" class="btn-3"></a></button></li>
+
+        </ul>
+        <ul>
+            <!-- <li><a href="" id="contact">+918888888888</a></li> -->
+        </ul>
+    </nav>
+
+    <!-- main navigation -->
+    <nav class="main-navigation">
+        <input type="checkbox" id="check">
+        <label for="check" class="checkbtn">
+            <i class="fa-solid fa-bars"></i>
+        </label>
+
+        <li> <img src="/swag.png" style="width: 80px;"> </li>
+        <ul>
+            <li><a href="login.html">Home</a></li>
+            <li><a href="#Categories">Categories</a></li>
+            <li><a href="#Latest">Latest</a></li>
+            <li><a href="#Blog">Blog</a></li>
+            <li><a href="#Pages">Pages</a></li>
+            <li><a href="#Contact">Contact</a></li>
+            <li><a href="#"><i class="fa-regular fa-heart"></i> </a></li>
+            <!-- <div class="cart-Container">
+                <div class="cart-list">
+                    <div class="cart-item">
+                        <img src="/imp-2.jpg ">
+                        <div class="cart-item-info">
+                            <h3 class="cart-item-name">Arm Chair</h3>
+                            <span class="cart-item-category">Chair</span>
+                            <span class="cart-item-price">$120.00</span>
+                        </div>
+                    </div>
+                    <buuton type="button" class="cart-item-del-btn"><i class="fas fa-times"></i></buuton>
+                    <div class="cart-total">
+                        <h3>Total:$</h3>
+                        <span id="cart-total-value">$120.00</span>
+
+                    </div>
+                </div>
+            </div> -->
+           
+            <button class="btn-5"> <i class="fa-solid fa-cart-shopping">
+                    <spn id="cart">0</spn>
+                </i></button>
+            <!-- <a href="#form"><input class="btn-2-2" type="button" value="sign in"> </a> -->
+            <button type="button" class="btn-2" id="form" data-toggle="modal" data-target="#loginModal">
+                login
+            </button>
+            <li><button id="btn-3"><a href="seller.html"><img src="id.png" class="btn-3"></a></button></li>
+
+        </ul>
+
+    </nav>
+
+</header>
+    <script src="cart.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
+        integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous">
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.min.js"
+        integrity="sha384-7VPbUDkoPSGFnVtYi0QogXtr74QeVeeIs99Qfg5YCF+TidwNdjvaKZX19NZ/e6oz" crossorigin="anonymous">
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous">
+    </script>
+</body>
+
+</html>

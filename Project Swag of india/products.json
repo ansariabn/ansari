@@ -1,0 +1,195 @@
+{
+    "Products": [
+        {
+            "id": "1",
+            "name": "Amazon product 1",
+            "price": "$28.5",
+            "priceAfterdiscount": "$25",
+            "imageName": "cat1",
+            "isNew": "TRUE",
+            "rating": "3"
+        },
+        {
+            "id": "2",
+            "name": "Cool Product 2",
+            "price": "$63.9",
+            "priceAfterdiscount": "$40",
+            "imageName": "cat2",
+            "isNew": "FALSE",
+            "rating": "4"
+        },
+        {
+            "id": "3",
+            "name": "Amazing Product 3",
+            "price": "$26.4",
+            "priceAfterdiscount": "$19",
+            "imageName": "cat3",
+            "isNew": "FALSE",
+            "rating": "2"
+        },
+        {
+            "id": "4",
+            "name": "Huge Product 4",
+            "price": "$58.4",
+            "priceAfterdiscount": "$50",
+            "imageName": "cat4",
+            "isNew": "TRUE",
+            "rating": "4"
+        },
+        {
+            "id": "5",
+            "name": "Tiny Product 5",
+            "price": "$58.5",
+            "priceAfterdiscount": "$48",
+            "imageName": "cat5",
+            "isNew": "FALSE",
+            "rating": "5"
+        },
+        {
+            "id": "6",
+            "name": "Expensive Product 6",
+            "price": "$82",
+            "priceAfterdiscount": "$77",
+            "imageName": "cat6",
+            "isNew": "TRUE",
+            "rating": "5"
+        },
+        {
+            "id": "7",
+            "name": "Expensive Product 6",
+            "price": "$82",
+            "priceAfterdiscount": "$77",
+            "imageName": "cat6",
+            "isNew": "TRUE",
+            "rating": "5"
+        },
+        {
+            "id": "8",
+            "name": "Expensive Product 6",
+            "price": "$82",
+            "priceAfterdiscount": "$77",
+            "imageName": "cat6",
+            "isNew": "TRUE",
+            "rating": "5"
+        },
+        {
+            "id": "9",
+            "name": "Expensive Product 6",
+            "price": "$82",
+            "priceAfterdiscount": "$77",
+            "imageName": "cat6",
+            "isNew": "TRUE",
+            "rating": "5"
+        },
+        {
+            "id": "10",
+            "name": "Expensive Product 6",
+            "price": "$82",
+            "priceAfterdiscount": "$77",
+            "imageName": "cat6",
+            "isNew": "TRUE",
+            "rating": "5"
+        },
+        {
+            "id": "11",
+            "name": "Expensive Product 6",
+            "price": "$82",
+            "priceAfterdiscount": "$77",
+            "imageName": "cat6",
+            "isNew": "TRUE",
+            "rating": "5"
+        },
+        {
+            "id": "12",
+            "name": "Expensive Product 6",
+            "price": "$50",
+            "priceAfterdiscount": "$30",
+            "imageName": "cat6",
+            "isNew": "TRUE",
+            "rating": "5"
+        },
+        {
+            "id": "13",
+            "name": "Expensive Product 6",
+            "price": "$70",
+            "priceAfterdiscount": "$40",
+            "imageName": "cat6",
+            "isNew": "TRUE",
+            "rating": "5"
+        },
+        {
+            "id": "14",
+            "name": "Expensive Product 6",
+            "price": "$75",
+            "priceAfterdiscount": "$65",
+            "imageName": "cat6",
+            "isNew": "TRUE",
+            "rating": "5"
+        },
+        {
+            "id": "15",
+            "name": "Expensive Product 6",
+            "price": "$70",
+            "priceAfterdiscount": "$50",
+            "imageName": "cat6",
+            "isNew": "TRUE",
+            "rating": "5"
+        },
+        {
+            "id": "16",
+            "name": "Expensive Product 6",
+            "price": "$70",
+            "priceAfterdiscount": "$60",
+            "imageName": "cat6",
+            "isNew": "TRUE",
+            "rating": "5"
+        },
+        {
+            "id": "17",
+            "name": "Expensive Product 6",
+            "price": "$82",
+            "priceAfterdiscount": "$65",
+            "imageName": "cat6",
+            "isNew": "TRUE",
+            "rating": "5"
+        },
+        {
+            "id": "18",
+            "name": "Expensive Product 6",
+            "price": "$90",
+            "priceAfterdiscount": "$45",
+            "imageName": "cat6",
+            "isNew": "TRUE",
+            "rating": "5"
+        },
+        {
+            "id": "19",
+            "name": "Expensive Product 6",
+            "price": "$82",
+            "priceAfterdiscount": "$77",
+            "imageName": "cat6",
+            "isNew": "TRUE",
+            "rating": "5"
+        },
+        {
+            "id": "2",
+            "name": "Expensive Product 6",
+            "price": "$82",
+            "priceAfterdiscount": "$77",
+            "imageName": "cat6",
+            "isNew": "TRUE",
+            "rating": "5"
+        },
+        {
+            "id": "6",
+            "name": "Expensive Product 6",
+            "price": "$82",
+            "priceAfterdiscount": "$77",
+            "imageName": "cat6",
+            "isNew": "TRUE",
+            "rating": "5"
+        }
+
+
+    ]
+}
