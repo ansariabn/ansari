@@ -1,0 +1,154 @@
+
+body {
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #ecf0f3;
+}
+.container {
+    width : 45%;
+    height : 50vh;
+    border-radius: 8px;
+    padding : 10px;
+    box-shadow: 12px 12px 20px #cbced1,
+            -12px -12px 20px #ffff ;
+}
+
+.display #screen {
+    width : 97%;
+    height : 70px;
+    font-size : 35px;
+    outline : none;
+    border : none;
+    text-align: right;
+    padding: .5rem;
+    background: #ecf0f3;
+    border-radius: 6px;
+    box-shadow:  inset 8px 8px 8px  #cbced1,
+                inset -8px -8px 8px  #ffffff;
+}
+.btns{
+    width: 100%;
+    margin-top: 1.2em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction:column;
+}
+.btns .row button {
+    width: 5rem;
+    height: 30px;
+    font-size: 16px;
+    border: none;
+    outline: none;
+    margin: 5px;
+    border-radius: 4px ;
+    box-shadow: 5px 5px 8px #00000020,
+                -5px -5px 8px #ffffffff;
+                transition: .1s;
+}
+
+.btns .row button:hover{
+    box-shadow: inset 5px 5px 8px rgba(16, 16, 16, .1),
+                inset -5px -5px 8px #ffff;
+                background-color: #ffff;
+}
+#eval {
+    background: #33ccff;
+    color: #ffff;
+    box-shadow:inset 5px 5px 8px #66d9ff,
+    inset -5px -5px 8px #00ace6;
+}
+
+#eval:hover {
+    box-shadow:inset 5px 5px 8px #00ace6,
+    inset -5px -5px 8px #00ace6;
+}
+#ac {
+    background: #33cc33;
+    color: #ffff;
+    
+}
+#ac:hover {
+    box-shadow:inset 5px 5px 8px #2eb82e,
+    inset -5px -5px 8px #33cc33;
+}
+#ce {
+    background: #ff3399;
+    color: #ffff;
+}
+#ce:hover {
+    
+    box-shadow:inset 5px 5px 8px #e60073,
+    inset -5px -5px 8px #ff3399;
+}
+@media screen and (min-width: 205px) and (max-width:1300px) {
+    .container {
+        width :max-content;
+        height :max-content ;
+        border-radius: 8px;
+        padding : 5px;
+        box-shadow: 12px 12px 20px #cbced1,
+                -12px -12px 20px #ffff ;
+    }
+    .display #screen {
+        width : 97%;
+        height : 70px;
+        font-size : 30px;
+        outline : none;
+        border : none;
+        text-align: right;
+        padding: .4rem;
+        background: #ecf0f3;
+        border-radius: 6px;
+        box-shadow:  inset 8px 8px 8px  #cbced1,
+                    inset -8px -8px 8px  #ffffff;
+    }
+    .btns{
+        width:auto;
+        margin-top: 1.5em;
+        display:flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+    .btns .row button {
+        width:3rem;
+        height: 25px;
+        font-size: 15px;
+        border: none;
+        outline: none;
+        margin: 5px;
+        border-radius: 4px ;
+        box-shadow: 5px 5px 8px #00000020,
+                    -5px -5px 8px #ffffffff;
+                    transition: .1s;
+    }
+}
+
+@media screen and (min-width: 100px) and (max-width:200px){
+    .container {
+        width :auto;
+        height :auto;
+        border-radius: 8px;
+        padding : 5px;
+        
+        box-shadow: 12px 12px 20px #0074e7,
+                -12px -12px 20px #ffff ;
+    }
+    .btns .row button {
+        width:2.7rem;
+        height: 25px;
+        font-size: 15px;
+        border: none;
+        outline: none;
+        margin: 5px;
+        border-radius: 4px ;
+        box-shadow: 5px 5px 8px #00000020,
+                    -5px -5px 8px #ffffffff;
+                    transition: .1s;
+    }
+}
