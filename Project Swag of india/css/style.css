@@ -6,6 +6,9 @@
     /* text-decoration: none  */
     font-size: 1.25rem;
 }
+html {
+    font-size: 62.5%;
+}
 
 /* BODY */
 .body {
@@ -35,7 +38,7 @@
 }
 
 img {
-    border-radius: 5px;
+    border-radius: .5rem;
 }
 
 /*BOTH NAVIGATION */
@@ -138,12 +141,7 @@ header .top-navigation ul,
 /* RESPONSIVE OF NAVIGATION*/
 @media (max-width:992px) {
     header .top-navigation ul {
-        display: block;
-        background-color: rgb(104, 54, 8);
-        line-height: 40px;
-        transition: .5s;
-        position: relative;
-        z-index: -1;
+       font-size: 2rem;
     }
 
     #one {
@@ -152,20 +150,12 @@ header .top-navigation ul,
     }
 
     header .main-navigation ul {
-        background-color: rgb(241, 195, 124);
-        display: block;
-        line-height: 40px;
-        text-align: center;
-        margin-top: 65px;
+        font-size: 2rem;
 
     }
 
     header .main-navigation ul input[type="button"] {
-        width: 10%;
-        background-color: white;
-        font-size: 15px;
-        border-radius: 5px;
-        font-weight: bold;
+       font-size: 2rem;
     }
 
     nav ul li a {
@@ -655,7 +645,7 @@ h4 {
     align-items: center;
     margin-left: 3px;
     padding:10px 10px; */
-} 
+
 
 .btn-5 {
     background: transparent;
